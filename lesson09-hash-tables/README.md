@@ -3,6 +3,7 @@
 ## Warm-up (10 minutes)
 
 ## Written Question (5 minutes)
+<!-- Khalid: This theory might be too advanced, might be better served with a deeper discussion about time complexity for hash tables. -->
 
 What is the load factor in a hash table and how does it affect performance?
 

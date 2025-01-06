@@ -3,6 +3,7 @@
 ## Warm-up (10 minutes)
 
 ## Written Question (5 minutes)
+<!--Khalid: This intro question assumes they know about hash tbales  -->
 
 What problems do you think can arise from having duplicate keys in a hash table? Discuss why unique keys are essential.
 

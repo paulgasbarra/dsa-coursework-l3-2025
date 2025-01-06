@@ -4,7 +4,7 @@
 Describe the concept of string interning and how it affects string comparison in JavaScript. What are the performance implications?
 
 ## Lecture Content (20 minutes)
-
+<!--Khalid: part 3 won't fit in a 20 minute block. I could get through a part of the performance optimization section -->
 ### Advanced String Concepts
 1. Regular Expressions
    - Pattern matching

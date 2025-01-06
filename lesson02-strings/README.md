@@ -4,7 +4,7 @@
 Explain why strings are immutable in JavaScript and what implications this has for string manipulation.
 
 ## Lecture Content (20 minutes)
-
+<!-- it might take more than 20 minutes to get through string basics and time complexity  -->
 ### String Basics
 1. String Creation
    - Literal notation

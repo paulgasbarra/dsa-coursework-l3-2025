@@ -9,7 +9,7 @@ Question: Imagine you have a collection of vintage records that you like to list
 ## Lecture Content (20 minutes)
 
 In this lecture, we will explore the concept of arrays in JavaScript. Arrays are a fundamental data structure that allow us to store and manipulate collections of values.
-
+<!-- Khalid: I would focus a lot on slice-->
 ### Introduction to Arrays
 
 An array is an ordered collection of elements, where each element can be accessed using its index. The index starts from 0 for the first element and increments by 1 for each subsequent element. Arrays can store values of any data type, including numbers, strings, objects, and even other arrays.

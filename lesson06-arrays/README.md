@@ -11,7 +11,7 @@ Describe how an array can be used to manage a to-do list. Explain how you would 
 In this lecture, we will expand on the topic of arrays and explore some additional concepts and operations that can be performed on arrays.
 
 ### Array Methods
-
+<!-- push pop shift and unshift are repeated here from previous day's lesson.  -->
 JavaScript provides several built-in methods that can be used to manipulate arrays. Here are a few commonly used methods:
 
 - `push`: Adds one or more elements to the end of an array.

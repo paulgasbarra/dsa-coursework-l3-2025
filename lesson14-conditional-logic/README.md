@@ -5,7 +5,7 @@ Daily Lesson Structure
 ## Warm up (10 minutes):
 
 ## Written Question (5 minutes):
-
+<!-- Khalid: I might do continue and break in here since they will probably already know conditional logic. We can show more advanced control flow and common control flow techniques like early returning and how to cascade logic -->
 "Why do we use conditional statements in programming?" Post the question in Slack, have everyone submit their answers simultaneously after a 5-minute timer.
 
 ## Topic Overview (20 minutes):

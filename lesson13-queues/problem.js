@@ -1,6 +1,7 @@
 /**
  * Implement a class `Queue` with the following methods:
- * 
+ *
+ * Khalid: we might have to note the time complexity ramifications of using an array to implement a queue
  * 1. `enqueue(element)`: Adds an element to the end of the queue.
  * 2. `dequeue()`: Removes and returns the front element of the queue.
  * 3. `peek()`: Returns the front element without removing it.

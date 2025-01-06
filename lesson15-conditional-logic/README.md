@@ -7,6 +7,7 @@
 "What are nested conditionals and when might you use them?" Everyone posts their answer simultaneously after a 5-minute timer.
 
 ## Topic Overview (20 minutes):
+<!-- Khalid: I would cover left associativity here -->
 
 ### Nested Conditionals:
 

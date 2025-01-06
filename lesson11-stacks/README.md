@@ -1,6 +1,7 @@
 # Lesson 11: Understanding Stacks
 
 ## Warm-up Written Question (10 minutes)
+<!-- Khalid: Do we want to ask this question before the stacks lesson? -->
 Explain what is meant by the term "Last In, First Out" (LIFO) in the context of stacks. Provide a real-world analogy.
 
 ## Lecture Content (20 minutes)
