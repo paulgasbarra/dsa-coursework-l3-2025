@@ -3,7 +3,7 @@
 // input: 1 -> null output: 1 -> null
 
 // head will not be null;
-
+// Khalid: This might be too much for their first exposure to linked lists
 module.exports = function reverseNodes(head){
     // code goes here
 };

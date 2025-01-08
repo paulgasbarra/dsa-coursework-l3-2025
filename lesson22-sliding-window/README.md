@@ -31,20 +31,20 @@ Example: Find max sum of 3 consecutive elements
 ```javascript
 function maxSum(arr, k) {
     let windowSum = 0;
-    
+
     // Initial window
     for(let i = 0; i < k; i++) {
         windowSum += arr[i];
     }
-    
+
     let maxSum = windowSum;
-    
+
     // Slide window
     for(let i = k; i < arr.length; i++) {
         windowSum = windowSum - arr[i-k] + arr[i];
         maxSum = Math.max(maxSum, windowSum);
     }
-    
+
     return maxSum;
 }
 ```
@@ -57,12 +57,13 @@ Practice problems:
 3. Calculate moving average of last N numbers
 
 Let's solve #1 together:
+<!-- Khalid: For the sake of time they could be left with the code and we go over everything during the recap so they have more time to code -->
 ```javascript
 function longestSubstring(str) {
     let seen = new Map();
     let start = 0;
     let maxLength = 0;
-    
+
     for(let end = 0; end < str.length; end++) {
         if(seen.has(str[end])) {
             start = Math.max(start, seen.get(str[end]) + 1);
@@ -70,7 +71,7 @@ function longestSubstring(str) {
         seen.set(str[end], end);
         maxLength = Math.max(maxLength, end - start + 1);
     }
-    
+
     return maxLength;
 }
 ```

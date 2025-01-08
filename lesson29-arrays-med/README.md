@@ -1,5 +1,5 @@
 # Lesson 28: Using Arrays to Identify Anagrams
-
+<!-- Khalid: I'm not sure what this lesson is asking in terms of using an array for anagrams -->
 ## Warm-up (15 minutes):
 
 ### Syntax Problem (10 minutes)

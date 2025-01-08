@@ -1,4 +1,5 @@
 /**
+ * Khalid: are they meant to solve this from scratch or update this implementation
  * Use backtracking to find a path from the top-left corner (0,0) to
  * the bottom-right corner (n-1, m-1) in a maze (grid).
  *
@@ -30,16 +31,16 @@
     const rows = maze.length;
     // If maze is empty, no path can exist
     if (rows === 0) return [];
-  
+
     // Number of columns (assuming rectangular grid)
     const cols = maze[0].length;
-  
+
     // 'path' will store the coordinates (row,col) of the route we are building
     const path = [];
-  
+
     // 'visited' tracks the cells that have been visited to prevent re-traversing
     const visited = Array.from({ length: rows }, () => Array(cols).fill(false));
-  
+
     /**
      * backtrack(r, c)
      * Attempts to move to the cell (r, c).
@@ -50,16 +51,16 @@
       // 1. Check if we're out of bounds or on a blocked cell or have visited before
       if (r < 0 || r >= rows || c < 0 || c >= cols) return false;
       if (maze[r][c] === 1 || visited[r][c]) return false;
-  
+
       // 2. Mark the current cell as visited and add it to the path
       visited[r][c] = true;
       path.push([r, c]);
-  
+
       // 3. Check if we've reached the goal: bottom-right corner
       if (r === rows - 1 && c === cols - 1) {
         return true; // Path complete
       }
-  
+
       // 4. Explore possible neighbors in the order:
       //    Right -> Down -> Left -> Up
       //    This order ensures we match the test's expected path for the 3x3 maze.
@@ -71,24 +72,23 @@
       ) {
         return true;
       }
-  
+
       // 5. If none of the neighbors lead to a solution, we backtrack:
       //    - Remove the last cell from 'path'
       //    - Mark the cell as unvisited again
       path.pop();
       visited[r][c] = false;
-  
+
       // 6. Return false to indicate this route didn't work
       return false;
     }
-  
+
     // Begin backtracking from the top-left cell (0,0)
     const success = backtrack(0, 0);
-  
+
     // If success is true, 'path' contains the valid route.
     // Otherwise, return an empty array.
     return success ? path : [];
   }
-  
+
   module.exports = solveMaze;
-  

@@ -1,12 +1,12 @@
 # Lesson #: Linked List
-
+<!-- Khalid: should we include the time complexities for different operations? -->
 ## Warm-up (10 minutes)
 - Can you recall any basic data structures we’ve used, like arrays or objects?
-- How do arrays handle adding or removing elements in the middle? 
+- How do arrays handle adding or removing elements in the middle?
 - What could be a more flexible alternative to arrays for such operations?
 
 ## Written Question (5 minutes)
-A linked list is an ordered set of data elements, each containing a link to its successorWhy might a linked list be more useful than an array in certain situations? 
+A linked list is an ordered set of data elements, each containing a link to its successorWhy might a linked list be more useful than an array in certain situations?
 
 ## Lecture Content (20 minutes)
 **What is a Linked List?**

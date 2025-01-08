@@ -1,12 +1,15 @@
 # Lesson #: Nodes (Abstract Data Types)
 
 ## Warm-up (10 minutes)
+<!-- Khalid: They probably won't understand this prompt -->
 Create a simple diagram of a family tree. How would you represent this with code?
 
 ## Written Question (5 minutes)
+<!-- Khalid: advantages over what options? -->
 In your own words, what advantages do classes offer when creating reusable objects in JavaScript? Write a short response.
 
 ## Lecture Content (20 minutes)
+
 1. What Are Nodes?
 - A node is a container that holds data and often links (or references) to other nodes.
 - Example applications:
@@ -20,6 +23,7 @@ In your own words, what advantages do classes offer when creating reusable objec
 - **Clear Structure**: Define what each node should look like.
 
 3. Creating a Basic Node Class
+
 Here’s how we can create a basic node class in JavaScript:
 ```javascript
 class Node {
@@ -31,7 +35,7 @@ class Node {
 ```
 - `constructor`: Initializes the `data` and sets the `next` reference to `null`.
 
-4. Example: Creating and Linking Nodes
+1. Example: Creating and Linking Nodes
 ```javascript
 // Create individual nodes
 const node1 = new Node(10);

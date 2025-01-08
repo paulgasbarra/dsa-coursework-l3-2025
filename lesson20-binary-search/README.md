@@ -1,4 +1,4 @@
-# Lesson #: Binary Search 
+# Lesson #: Binary Search
 
 ## Warm-up (10 minutes)
 To get started, let's refresh our memory on some fundamental concepts:
@@ -32,7 +32,9 @@ Binary search is a highly efficient search algorithm that finds the position of 
 
 **Binary Search in JavaScript**
 Here is a simple implementation of binary search in JavaScript:
+<!-- Khalid: I think this should be pseudocode so they have to implement for the exercise -->
 ```javascript
+
 function binarySearch(arr, target) {
   let low = 0;
   let high = arr.length - 1;
@@ -51,6 +53,7 @@ function binarySearch(arr, target) {
 
   return -1; // Target not found
 }
+
 ```
 
 **Complexity**

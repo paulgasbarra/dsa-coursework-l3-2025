@@ -1,5 +1,5 @@
 # Lesson 28: Bucket Sort with Arrays
-
+<!-- Khalid: bucket sort might be too much for 20 minutes of lecture. Maybe switch this out for merge sort? -->
 ## Warm-up (15 minutes):
 
 ### Syntax Problem (10 minutes):
